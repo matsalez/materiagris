@@ -35,7 +35,7 @@ height: 100%;
 .bg-text{
 
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -44,5 +44,149 @@ height: 100%;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  font-size: 1.5  em;
+  font-size: 1.5em;
+}
+
+.bg-button {
+
+  background-color: #ad00fe;
+  color: white;
+  font-size: 0.8em;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.text-center {
+
+  text-align: center;
+}
+.bg-button:hover {
+  background-color: black;
+}
+
+/* PLANES */
+
+
+.img-plan {
+
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+
+}
+
+.container-planes {
+
+background-color: rgb(255, 255, 255);
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.container-plan {
+
+display: inline-block;
+padding: 20px;
+width: 100%;
+height: 450px;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+
+.container-plan h3 {
+  padding-top: 10px;
+  text-align: center;
+  color: #ad00fe;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+
+}
+
+
+.container-plan p {
+
+  height: 300px;
+  padding-top: 10px;
+  color: #585858;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+
+}
+
+.btn-consultar {
+
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ad00fe;
+  color: white;
+  font-size: 0.6em;
+  padding:15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+
+}
+
+/* SERVICIOS */
+
+.servicios {
+
+  padding-top: 20px;
+  text-align: center;
+  color: rgb(132, 98, 147);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+
+}
+
+
+
+.container-services {
+
+background-color: rgb(255, 255, 255);
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.container-service {
+
+display: inline-block;
+padding: 20px;
+width: 100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+
+.container-service h3 {
+  padding-top: 10px;
+  text-align: center;
+  color: #ad00fe;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+
+}
+
+
+.container-service p {
+
+  height: 150px;
+  padding-top: 10px;
+  color: #585858;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+
 }

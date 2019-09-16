@@ -1,0 +1,57 @@
+#footer-menu {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    z-index: 15;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#div-logo-footer {
+transition: 0.6s;
+width: 250px;
+height: 100px;
+
+
+}
+#logo-footer {
+  height: 90%;
+  width: 90%;
+  padding: 10px;
+}
+
+.container-redes-footer{
+  width: 150px;
+  height: 100px;
+  padding-right: 20px;
+  z-index: 15;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+
+}
+
+.redes{
+  padding: 20px;
+  color: #000000;
+}
+
+#icono-menu{
+
+  font-size: 1.5em;
+  color: #000000;
+}
+
+.copyright {
+
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 100px;
+
+}

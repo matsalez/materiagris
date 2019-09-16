@@ -14,9 +14,10 @@
  display: flex;
  align-items: center;
  justify-content: space-between;
+ border-bottom: solid 1px rgb(175, 175, 175);
 }
 
-#div-logo {
+#div-logo-nav {
 transition: 0.6s;
 width: 300px;
 height: auto;
@@ -47,9 +48,10 @@ height: auto;
 }
 
 /* Links on mouse-over */
-#navbar a:hover {
+#navbar-right a:hover {
  color: black;
- border-bottom: 3px solid #5100ba ;
+ background-color: #5100ba ;
+ color: #fff;
 }
 
 
