@@ -5,7 +5,7 @@
 		</div>
 
 		<div class="copyright">
-			<span> © 2019 Materia Gris Co. By NOT NAME.</span>
+			<span> © 2019 Materia Gris Co. By <a href="/" class="copybrand"> NOT NAME </a>.</span>
 		</div>
 
 		<div class="container-redes-footer row">

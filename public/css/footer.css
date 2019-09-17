@@ -5,6 +5,7 @@
     left: 0;
     bottom: 0;
     z-index: 15;
+    border-top: solid 5px rgb(0, 151, 166);
     background-color: #f1f1f1;
     display: flex;
     align-items: center;
@@ -49,9 +50,27 @@ height: 100px;
 
 .copyright {
 
+  font-family: 'Hind', sans-serif;
+  font-size: 1em;
   display: flex;
   align-items: center;
   width: 350px;
   height: 100px;
+
+}
+
+.copybrand  {
+
+  font-family: 'Hind', sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+
+}
+
+.copybrand:hover  {
+
+  color: rgb(0, 151, 166);
 
 }

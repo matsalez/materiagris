@@ -5,10 +5,10 @@
 		</div>
 
 			 <div id="navbar-right">
-				 <a class="active" href="#home">CONOCENOS</a>
-				 <a href="#contact">MEMBRESIAS</a>
-				 <a href="#about">SERVICIOS</a>
-				 <a href="#about">EVENTOS</a>
+				 <a href="#home">ESPACIOS</a>
+				 <a href="#espacios">MEMBRESIAS</a>
+				 <a href="#servicios">SERVICIOS</a>
+				 <a href="#contacto">CONTACTO</a>
 			 </div>
 	</div>
 </nav>
