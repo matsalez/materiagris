@@ -11,6 +11,14 @@
   width: auto;
 }
 
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+
+}
+
 .img-home {
 
 width: 100%;
@@ -188,7 +196,6 @@ background-color: rgb(198, 68, 130);
 
 .container-services {
 
-margin-left: 10px;
 background-color: rgb(255, 255, 255);
 width: 100%;
 display: flex;
@@ -239,6 +246,26 @@ background-color: rgb(233, 233, 233);
 
 }
 
+.base-inputs {
+
+width: auto;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.base-textos {
+
+width: auto;
+padding: 20px;
+
+
+}
+
+
+
 #btn-icon {
   color: #5100ba;
   font-size: 2em;
@@ -261,7 +288,7 @@ background-color: rgb(233, 233, 233);
 #input-md {
 
   height: 200px;
-  width: 600px;
+  width: 500px;
   border: 1px solid #5100ba ;
   padding: 25px;
   font-family: 'Hind', sans-serif;
@@ -275,7 +302,7 @@ background-color: rgb(233, 233, 233);
 #button-form {
 
   height: 100px;
-  width: 600px;
+  width: 500px;
   background-color: #5100ba;
   border: 1px solid #202020;
   color: #fff;
@@ -308,7 +335,7 @@ background-color: rgb(233, 233, 233);
   font-weight: 300;
   font-size: 1.2em;
   text-align: center;
-  width: 600px;
+  width: 500px;
   padding: 10px;
 
 }

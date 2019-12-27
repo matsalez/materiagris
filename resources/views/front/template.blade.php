@@ -11,7 +11,7 @@
 		@include('front.navbar')
 
     @yield('mainContent')
-		
+
 		@include('front.footer')
 
 	</body>

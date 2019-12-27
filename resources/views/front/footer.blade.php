@@ -1,5 +1,5 @@
 <footer>
-	<div id="footer-menu" class="footer">
+	<div id="footer-menu" class="footer row no-gutters">
 		<div id="div-logo-footer">
 			<a href="/" > <img id="logo-footer" src="/images/logo3.png" alt="Materia Gris"> </a>
 		</div>
@@ -8,7 +8,7 @@
 			<span> © 2019 Materia Gris Co. By <a href="/" class="copybrand"> NOT NAME </a>.</span>
 		</div>
 
-		<div class="container-redes-footer row">
+		<div class="container-redes-footer row no-gutters">
 			<div id="face" class="redes">
 				<a href="http://www.facebook.com/materiagris">
 					<i id="icono-menu"class="fab fa-facebook-square"></i>
